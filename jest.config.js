@@ -1,5 +1,5 @@
 module.exports = {
-  testIgnorePatterns: ["/node_modules/", "/.next/"], //faz com que o JEST não procure testes nestas pastas
+  testPathIgnorePatterns: ["/node_modules/", "/.next/"], //faz com que o JEST não procure testes nestas pastas
   setupFilesAfterEnv: [
     //basicamente é uma array de arquivos que eu posso passar para o JEST executar antes dos testes
     "<rootDir>/src/tests/setupTests.js",
